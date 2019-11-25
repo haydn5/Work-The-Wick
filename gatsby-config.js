@@ -1,10 +1,10 @@
 module.exports = {
   pathPrefix: `/gatsby-creative`,
   siteMetadata: {
-    title: `How I Fell in love With an Island`,
+    title: `The Wick, Brunswick, Georgia`,
     description: ``,
-    author: `Haydn S. Adams`,
-    siteUrl: `https://www.howifellinlovewith.com`,
+    author: `The Wick`,
+    siteUrl: `https://www.workthewick.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
