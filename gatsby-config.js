@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/gatsby-creative`,
   siteMetadata: {
-    title: `The Wick, Brunswick, Georgia`,
+    title: `Work the Wick`,
     description: `The Wick is a shared work space that offers tenants the privacy of individual office spaces with the amenities of larger office buildings. `,
     author: `The Wick`,
     siteUrl: `https://www.workthewick.com`,

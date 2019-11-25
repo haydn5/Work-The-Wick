@@ -16,7 +16,7 @@ import wick3logo from "../images/logo-3-wick.svg"
 
 const test3 = (props, {text123}) => (
   <Layout>
-        <SEO title="The Offices of the Wick"/>
+        <SEO title="Offices in Brunswick, Georgia"/>
         <section className="page-section">
 
         <BackgroundImage
