@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: `/gatsby-creative`,
   siteMetadata: {
     title: `The Wick, Brunswick, Georgia`,
-    description: ``,
+    description: `The Wick is a shared work space that offers tenants the privacy of individual office spaces with the amenities of larger office buildings. `,
     author: `The Wick`,
     siteUrl: `https://www.workthewick.com`,
   },
@@ -24,10 +24,10 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon-flame.jpg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sass`,

@@ -48,7 +48,7 @@ const test3 = (props, {text123}) => (
             </Col>
             <Col lg={8}>
               <p><img src={wick1logo} alt="Wick 1 Logo" className="img-fluid maxWidth200 paddingRight127" /></p>
-              <h3>THE WICK - 1612 NEWCASTLE STREET</h3>
+              <h3 className="text-uppercase">1612 Newcastle Street</h3>
               <p>Originally the Royal Hotel, built in 1908, this property has gone through multiple modernizations over the course of its lifetime, but still maintains its original charm. With 14' ceilings adorned with pressed tin, gorgeous hardwood floors, original skylights, and 8' windows throughout, this building is sure to make an impact on your guests. The Wick offers over 30 private offices ranging from 100 - 300 square feet.</p>
               <Button variant="info">Learn More</Button>
             </Col>
@@ -61,7 +61,7 @@ const test3 = (props, {text123}) => (
             </Col>
             <Col lg={8}>
               <p><img src={wick2logo} alt="Wick 2 Logo" className="img-fluid maxWidth200" /></p>
-              <h3>THE WICK - 1612 NEWCASTLE STREET</h3>
+              <h3 className="text-uppercase">127 F. Street</h3>
               <p>Situated next to Mary Ross Waterfront Park and the East River, this location offers river, marsh, and park views from many suites. This recently renovated property provides a quiet work environment in a tranquil setting. The Wick 2.0 offers nearly 30 private offices ranging from 100 - 250 square feet.</p>
               <Button variant="info">Learn More</Button>
             </Col>
@@ -73,7 +73,7 @@ const test3 = (props, {text123}) => (
             </Col>
             <Col lg={8}>
               <p><img src={wick3logo} alt="Wick 3 Logo" className="img-fluid maxWidth200" /></p>
-              <h3>THE WICK - 1612 NEWCASTLE STREET</h3>
+              <h3 className="text-uppercase">501 Gloucester Street</h3>
               <p>Situated next to Mary Ross Waterfront Park and the East River, this location offers river, marsh, and park views from many suites. This recently renovated property provides a quiet work environment in a tranquil setting. The Wick 2.0 offers nearly 30 private offices ranging from 100 - 250 square feet.</p>
               <Button variant="info">Learn More</Button>
             </Col>

@@ -15,9 +15,9 @@ export default class Header extends React.Component {
   render() {
     return (
       <>
-      
+      <div className="orange-bar"></div>
       <div className="container">
-        <Navbar className="navbar  navbar-expand-md navbar-light" id="mainNav" expand="xl"
+        <Navbar className="navbar  navbar-expand-md" id="mainNav" expand="xl"
                 collapseOnSelect={true}>
           
             <Link className="navbar-brand">
