@@ -29,12 +29,9 @@ const test3 = (props, {text123}) => (
             <div className="content-box">
             <h1>Private offices in Downtown Brunswick starting at $200/mo. all inclusive.</h1>
             </div>
-          </div>
-          {/* <div className="helper"> */}
-          {/* <h1>Private offices in Downtown Brunswick starting at $200/mo. all inclusive.</h1> */}
-          {/* </div> */}
-          
+          </div>          
         </BackgroundImage>
+
         <Container>
           <h2 className="summary">100 Offices   —   3 Locations   —   1 Community</h2>
           <p className="summary">The Wick is a shared work space that offers tenants the privacy of individual office spaces with the amenities of larger office buildings. With 3 convenient locations in Historic Downtown Brunswick offering over 100 unique offices, The Wick is a community of entrepreneurs, small businesses, professionals, non-profits, creatives, and more.</p>
@@ -85,6 +82,23 @@ const test3 = (props, {text123}) => (
           <h2 className="summary">Locations</h2>
           <p className="summary">Located in the heart of Historic Downtown Brunswick, all three of The Wick locations offer tenants easy access to restaurants, shops, banks, professional services, and more. With locations on Newcastle Street, Gloucester Street, and next to Mary Ross Waterfront Park, these central locations are ideal for individuals and businesses alike.</p>
         </Container>
+
+        <div className="subhead">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d853.6267005218305!2d-81.496362070799!3d31.15120889884333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e4d817bb4f97c1%3A0x7567711ebf771008!2s1612%20Newcastle%20St%2C%20Brunswick%2C%20GA%2031520!5e0!3m2!1sen!2sus!4v1574797196651!5m2!1sen!2sus" width="100%" height="100%" title="helo" frameborder="0"></iframe>
+        </div>
+        <Container>
+        
+        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d853.6267005218305!2d-81.496362070799!3d31.15120889884333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e4d817bb4f97c1%3A0x7567711ebf771008!2s1612%20Newcastle%20St%2C%20Brunswick%2C%20GA%2031520!5e0!3m2!1sen!2sus!4v1574797196651!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> */}
+
+        
+        </Container>
+
+        <Container>
+          <h2 className="summary">Historic Downtown Brunswick</h2>
+          <p className="summary">The Wick and The Wick 2.0 are conveniently located in the heart of Historic Downtown Brunswick. The downtown area has great retail stores, restaurants, professional services, and entertainment. Come experience some of Brunswick's notable sites and events including: First Fridays, Signature Squares, the Ritz Theatre, the Brunswick Landing Marina, and more.</p>
+        </Container>
+
+        
  
         </section>
         
@@ -119,6 +133,20 @@ export const pageQuery = graphql`
     wick3Front: file(relativePath: { eq: "wick-3-outside.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    noInvoices: file(relativePath: { eq: "no-invoices.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    amenities: file(relativePath: { eq: "amenities.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 2000) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }

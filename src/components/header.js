@@ -30,7 +30,7 @@ export default class Header extends React.Component {
 	              
                 <li><Link to="/about-the-book/" className="nav-link" activeClassName="active">Locations</Link></li>
                 <li><Link to="/about-the-author/" className="nav-link" activeClassName="active">Offices</Link></li>
-                <li><Link to="/contact/" className="nav-link" activeClassName="active">Amenities</Link></li>
+                <li><Link to="/amenities/" className="nav-link" activeClassName="active">Amenities</Link></li>
                 <li><Link to="/contact/" className="nav-link" activeClassName="active">Neighborhood</Link></li>
                 <li><Link to="/contact/" className="nav-link" activeClassName="active">Schedule a Tour</Link></li>
               </ul>

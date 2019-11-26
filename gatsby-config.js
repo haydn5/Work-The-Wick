@@ -30,6 +30,13 @@ module.exports = {
         icon: `src/images/favicon-flame.jpg`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-responsive-iframe`],
+      },
+    },
+    
     `gatsby-plugin-sass`,
     {
       resolve: 'gatsby-plugin-web-font-loader',

@@ -11,7 +11,18 @@
     margin-bottom: 10px;
 }
 
-.masthead .black-overlay {
+.subhead {
+    width: 100%;
+    height: 30vh;
+    /* min-height: 500px; */
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.black-overlay {
     display: -webkit-flex; /* Safari */
     display: flex;
     background-color: rgba(0,0,0,0.4);
@@ -30,11 +41,14 @@
     display: block;
 }
 
-.masthead h1, .masthead h2, .masthead p, .findAHomeText h2, .findAHomeText p {
+.masthead h1, .subhead h2 {
     color: white;
     text-shadow: 2px 2px 5px rgba(0,0,0, .4);
-    
     padding: 10px;
+}
+
+.subhead h2 {
+    font-size: 3em;
 }
 
 .fixed {
@@ -64,7 +78,7 @@ h3 {
     font-size: 1.6em;
 }
 
-.container h2 {
+h2.summary {
     margin: 40px auto;
 }
 
@@ -80,8 +94,11 @@ h3 {
     margin-bottom: 00px;
 } */
 
+.container p, .container h2 {
+    margin-top: 20px;
+}
+
 .container p {
-    margin: 20px auto;
     font-family: 'Lato', sans-serif;
     color: rgb(110, 110, 110);
     line-height: 1.8em;
