@@ -42,7 +42,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Merriweather:400,300,300italic,400italic,700,700italic', 'Merriweather+Sans:400,700']
+          families: ['Quicksand:300,400,700', 'Lato:400,400i,700,700i']
         }
       }
     },
