@@ -50,9 +50,6 @@
     font-size: 3em;
 }
 
-/* .fixed {
-    background-attachment: fixed;
-} */
 
 /* Navigation  */
 
@@ -138,10 +135,18 @@ hr {
     height: 6px;
 }
 
+/* Media Query for Desktop */
+
+
 @media screen and (min-width: 990px) {
     .paddingRight127 {
         padding-right: 127px;
     }
+
+    .fixed {
+        background-attachment: fixed;
+    }
+    
 }
 
 @media screen and (min-width: 680px) {
