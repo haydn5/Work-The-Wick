@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Navbar, Nav } from "react-bootstrap"
+import { Navbar, Nav, NavDropdown } from "react-bootstrap"
 import Scroller from './scroller'
 import { Link } from 'gatsby'
 
@@ -28,9 +28,10 @@ export default class Header extends React.Component {
               <Nav className="navbar-nav text-center ml-auto">
               <ul className="navbar-nav  text-center">
 	              
-                <li><Link to="/about-the-book/" className="nav-link" activeClassName="active">Locations</Link></li>
-                <li><Link to="/about-the-author/" className="nav-link" activeClassName="active">Offices</Link></li>
                 <li><Link to="/amenities/" className="nav-link" activeClassName="active">Amenities</Link></li>
+                <NavDropdown title="Offices" id="basic-nav-dropdown">
+        <NavDropdown.Item href="/the-wick/">The Wick</NavDropdown.Item>
+      </NavDropdown>
                 <li><Link to="/contact/" className="nav-link" activeClassName="active">Neighborhood</Link></li>
                 <li><Link to="/contact/" className="nav-link" activeClassName="active">Schedule a Tour</Link></li>
               </ul>

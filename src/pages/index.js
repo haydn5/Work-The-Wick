@@ -1,5 +1,5 @@
 import React from "react"
-import { Row, Col, Container, Button } from "react-bootstrap"
+import { Row, Col, Container, Button, Carousel } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -97,8 +97,19 @@ const test3 = (props, {text123}) => (
           <h2 className="summary">Historic Downtown Brunswick</h2>
           <p className="summary">The Wick and The Wick 2.0 are conveniently located in the heart of Historic Downtown Brunswick. The downtown area has great retail stores, restaurants, professional services, and entertainment. Come experience some of Brunswick's notable sites and events including: First Fridays, Signature Squares, the Ritz Theatre, the Brunswick Landing Marina, and more.</p>
         </Container>
-
-        
+        <Container>
+        <Carousel autoPlay interval={80000} touch={true}>
+          <Carousel.Item>
+            <Img fluid={props.data.wick01.childImageSharp.fluid} alt="The Wick 3 Font Face of the Building" className="d-block img-fluid" />
+          </Carousel.Item>
+          <Carousel.Item>
+          <Img fluid={props.data.wick02.childImageSharp.fluid} alt="The Wick 3 Font Face of the Building" className="d-block w-100" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <Img fluid={props.data.wick03.childImageSharp.fluid} alt="The Wick 3 Font Face of the Building" className="d-block img-fluid" />
+          </Carousel.Item>
+          </Carousel>
+          </Container>
  
         </section>
         
@@ -147,6 +158,27 @@ export const pageQuery = graphql`
     amenities: file(relativePath: { eq: "amenities.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 2000) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    wick01: file(relativePath: { eq: "the-wick/wick01.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    wick02: file(relativePath: { eq: "the-wick/wick02.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    wick03: file(relativePath: { eq: "the-wick/wick03.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
