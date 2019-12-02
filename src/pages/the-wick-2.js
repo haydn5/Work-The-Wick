@@ -43,7 +43,7 @@ const theWick = (props) => (
           <Img fluid={props.data.wick202.childImageSharp.fluid} alt="The Wick 3 Font Face of the Building" className="d-block w-100" />
           </Carousel.Item>
           <Carousel.Item>
-            <Img fluid={props.data.wick201.childImageSharp.fluid} alt="The Wick 3 Font Face of the Building" className="d-block img-fluid" />
+            <Img fluid={props.data.wick203.childImageSharp.fluid} alt="The Wick 3 Font Face of the Building" className="d-block img-fluid" />
           </Carousel.Item>
           <Carousel.Item>
             <Img fluid={props.data.wick204.childImageSharp.fluid} alt="The Wick 3 Font Face of the Building" className="d-block img-fluid" />
