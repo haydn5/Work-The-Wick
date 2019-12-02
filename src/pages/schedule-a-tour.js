@@ -55,9 +55,7 @@ const scheduleATour = (props) => (
                                 <Form.Group>
                                     <Form.Label>First Name</Form.Label>
                                     <Form.Control 
-                                        type="name"
-                                        name="First Name"
-                                        required
+                                        type="text" name="fname"
                                      />
                                 </Form.Group>
                             </Col>
@@ -65,8 +63,7 @@ const scheduleATour = (props) => (
                             <Form.Group>
                                     <Form.Label>Last Name</Form.Label>
                                     <Form.Control 
-                                        type="name"
-                                        name="first-name"
+                                       type="text" name="fname"
 
                                      />
                             </Form.Group>
