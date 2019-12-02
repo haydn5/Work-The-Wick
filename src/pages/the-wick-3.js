@@ -78,21 +78,21 @@ export const pageQuery = graphql`
         }
       }
     }
-    wick0302: file(relativePath: { eq: "wick-3/wick-3-01.jpg" }) {
+    wick0302: file(relativePath: { eq: "wick-3/wick-3-02.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
-    wick0303: file(relativePath: { eq: "wick-3/wick-3-01.jpg" }) {
+    wick0303: file(relativePath: { eq: "wick-3/wick-3-03.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
-    wick0304: file(relativePath: { eq: "wick-3/wick-3-01.jpg" }) {
+    wick0304: file(relativePath: { eq: "wick-3/wick-3-04.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid_withWebp
