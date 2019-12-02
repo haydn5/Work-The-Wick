@@ -33,7 +33,7 @@ const scheduleATour = (props) => (
                     </Col>
                     <Col lg={6}>
                     <Form 
-                    name="contact"
+                    name="contact v2"
                     method="post"
                     action="/success/"
                     data-netlify="true"
@@ -94,7 +94,7 @@ const scheduleATour = (props) => (
                             <Form.Label>What are some upcoming dates/times that you're available for a tour?</Form.Label>
                             <Form.Control 
                                 as="textarea" 
-                                name="how-much-space"
+                                name="upcoming-dates-times"
                                 rows="3"
                                 placeholder="Tours available 7 days a week!"
                              />
