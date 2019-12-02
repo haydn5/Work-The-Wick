@@ -25,23 +25,16 @@ export default class Header extends React.Component {
             </Link>
             <Navbar.Toggle aria-controls="navbarResponsive"/>
             <Navbar.Collapse id="navbarResponsive">
-              <Nav className="navbar-nav text-center ml-auto" ActiveKey="/amenities/">
-
-
-              <Nav.Item>
-    
-  </Nav.Item>
+              <Nav className="navbar-nav text-center ml-auto" >
               <ul className="navbar-nav  text-center">
-              <Nav.Item>
-                <Nav.Link href="/amenities/" className="nav-link" activeClassName="active">Test 2</Nav.Link>
-              </Nav.Item>
+            
               
               <NavDropdown title="Offices" id="basic-nav-dropdown">
               <NavDropdown.Item href="/the-wick/">The Wick</NavDropdown.Item>
               </NavDropdown>
                 <li><Link to="/amenities/" className="nav-link" activeClassName="active">Amenities</Link></li>
             
-                <li><Link to="/contact/" className="nav-link" activeClassName="active">Neighborhood</Link></li>
+                <li><Link to="/neighborhood" className="nav-link" activeClassName="active">Neighborhood</Link></li>
                 <li><Link to="/schedule-a-tour/" className="nav-link" activeClassName="active">Schedule a Tour</Link></li>
               </ul>
               </Nav>
