@@ -28,7 +28,8 @@ const scheduleATour = (props) => (
             <Container>
                 <Row>
                     <Col lg={6}>
-
+                    <p>For all leasing inquiries, please call Katie 912-571-8170, or email <a href="mailto:Katie@KaufmanDevelopmentGroup.com">Katie@KaufmanDevelopmentGroup.com</a>
+</p>
                     </Col>
                     <Col lg={6}>
                     <Form 
@@ -46,29 +47,62 @@ const scheduleATour = (props) => (
                         Don’t fill this out: <input name="bot-field" />
                     </label>
                     </p>
-                        <Form.Group>
-                            <Form.Label>Name</Form.Label>
-                            <Form.Control 
-                                type="name"
-                                name="name"
-                                placeholder="John Doe" />
-                        </Form.Group>
+                        
+
+
+                        <Row>
+                            <Col md={6}>
+                                <Form.Group>
+                                    <Form.Label>First Name</Form.Label>
+                                    <Form.Control 
+                                        type="name"
+                                        name="First Name"
+                                        required
+                                     />
+                                </Form.Group>
+                            </Col>
+                            <Col md={6}>
+                            <Form.Group>
+                                    <Form.Label>Last Name</Form.Label>
+                                    <Form.Control 
+                                        type="name"
+                                        name="First Name"
+
+                                     />
+                            </Form.Group>
+                            </Col>
+                        </Row>
+
+
+                            
                         <Form.Group>
                             <Form.Label>Email address</Form.Label>
                             <Form.Control 
+                                required
                                 type="email" 
-                                name="email"
-                                placeholder="name@example.com" />
+                                name="email" 
+                            />
                         </Form.Group>
                         
                         <Form.Group>
-                            <Form.Label>Example textarea</Form.Label>
+                            <Form.Label>How much space are you looking for?</Form.Label>
                             <Form.Control 
                                 as="textarea" 
-                                name="message"
-                                rows="3" />
+                                name="How Much Space Are You Looking for?"
+                                rows="3"
+                                placeholder="Examples: About 150-200 square feet; Enough for 3 people working full-time; A small office for 1 but lots of storage space..."
+                             />
                         </Form.Group>
-                        <Button type="submit">Submit form</Button>
+                        <Form.Group>
+                            <Form.Label>What are some upcoming dates/times that you're available for a tour?</Form.Label>
+                            <Form.Control 
+                                as="textarea" 
+                                name="How Much Space Are You Looking for?"
+                                rows="3"
+                                placeholder="Tours available 7 days a week!"
+                             />
+                        </Form.Group>
+                        <Button type="submit">Submit</Button>
                         </Form>
                     </Col>
                 </Row>

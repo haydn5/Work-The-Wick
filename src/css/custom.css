@@ -174,3 +174,26 @@ hr {
         padding: inherit;
     }
 }
+
+footer {
+    background-color: #003455;
+    overflow: hidden;
+}
+
+footer .container p, footer h2 {
+    color: white;
+}
+
+footer .container a {
+    border-bottom: 1px dotted white;
+    color: white;
+}
+
+footer .container a.btn {
+    color: inherit;
+}
+
+footer .container a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}

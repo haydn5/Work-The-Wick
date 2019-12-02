@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import Header from "./header"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../css/custom.css"
+import { Container, Button } from "react-bootstrap";
 
 const getScrollNode = (element) => {
   return element.ownerDocument.scrollingElement || element.ownerDocument.documentElement
@@ -61,10 +62,16 @@ export default class Layout extends React.Component {
         id="page-top">
         <Header/>
         <main>{this.props.children}</main>
-        <footer className="bg-white py-5">
-          <div className="container">
-            <div className="small text-center text-muted">Copyright &copy; 2019 - Nautilus Designs</div>
-          </div>
+        <div className="orange-bar mt-3"></div>
+        <footer>
+          <Container className="text-center">
+                <h2>Your new office awaits.</h2>
+                <Button href="/schedule-a-tour" variant="light">Schedule a Tour</Button>
+              
+          </Container>
+          <Container>
+          <p className="text-center">©{(new Date().getFullYear())} Work The Wick | Site designed by <a href="https://www.nautilusdesigns.com">Nautilus Designs</a></p>
+          </Container>
         </footer>
       </div>
     )

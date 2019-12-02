@@ -47,7 +47,7 @@ const test3 = (props, {text123}) => (
               <p><img src={wick1logo} alt="Wick 1 Logo" className="img-fluid maxWidth200 paddingRight127" /></p>
               <h3 className="text-uppercase">1612 Newcastle Street</h3>
               <p>Originally the Royal Hotel, built in 1908, this property has gone through multiple modernizations over the course of its lifetime, but still maintains its original charm. With 14' ceilings adorned with pressed tin, gorgeous hardwood floors, original skylights, and 8' windows throughout, this building is sure to make an impact on your guests. The Wick offers over 30 private offices ranging from 100 - 300 square feet.</p>
-              <Button variant="info">Learn More</Button>
+              <Button href="/the-wick" variant="info">Learn More</Button>
             </Col>
             
           </Row>
