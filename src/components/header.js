@@ -30,7 +30,9 @@ export default class Header extends React.Component {
             
               
               <NavDropdown title="Offices" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/the-wick/">The Wick</NavDropdown.Item>
+                <NavDropdown.Item href="/the-wick/">The Wick</NavDropdown.Item>
+                <NavDropdown.Item href="/the-wick-2/">The Wick 2.0</NavDropdown.Item>
+                <NavDropdown.Item href="/the-wick-3/">The Wick 3.0</NavDropdown.Item>
               </NavDropdown>
                 <li><Link to="/amenities/" className="nav-link" activeClassName="active">Amenities</Link></li>
             

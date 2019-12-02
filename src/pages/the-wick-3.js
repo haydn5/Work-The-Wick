@@ -1,7 +1,7 @@
 import React from "react"
 import { Container, Carousel } from "react-bootstrap"
-import Layout from "../../components/layout"
-import SEO from "../../components/seo"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 
 import BackgroundImage from 'gatsby-background-image'
@@ -11,7 +11,7 @@ import Img from 'gatsby-image';
 
 const theWick = (props) => (
     <Layout>
-        <SEO title="Amenities" />
+        <SEO title="The Wick 3.0" />
         <section>
 
 
@@ -23,14 +23,14 @@ const theWick = (props) => (
         >
           <div className="black-overlay">
             <div className="content-box">
-            <h1>The Wick</h1>
+            <h1>The Wick 3.0</h1>
             </div>
           </div>          
         </BackgroundImage>
 
         <Container>
           <p className="summary">
-          The Wick is located in the historic Royal Hotel located on Newcastle Street in downtown Brunswick, Georgia. Built in 1908, this property has gone through multiple modernizations over the course of its lifetime, but still maintains its original historic charm. With high ceilings adorned with pressed tin, gorgeous hardwood floors, original skylights, and large windows throughout, our office suites are truly one of a kind. Along with historic charm this working community also houses a 14 person conference room, kitchen, and copy center. Offering over 30 private office suites ranging from 100 - 300 square feet this community of entrepreneurs is a part of Brunswick’s vibrant small
+          Help us welcome the newest addition to The Wick family of properties is close to it everything. Located in the heart of historic downtown Brunswick, Georgia on Gloucester Street, this project has been completely renovated in 2019. The Wick 3.0 boasts a grand and gracious lobby with no shortage of large office suites. With a spacious kitchen and conference room that seats 20 The Wick 3.0 offers over 35 offices ranging from 150 - 300 square feet. Many plans have been put into the works to create not only a working community between these three buildings but an opportunity to network and grow your small business. We look forward to sharing all we have in store with you.
           </p>
         </Container>
 
@@ -61,7 +61,7 @@ export default theWick;
  
 export const pageQuery = graphql`
   query {
-    indexImage: file(relativePath: { eq: "wick1-header.jpg" }) {
+    indexImage: file(relativePath: { eq: "wick-3-header.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 2000) {
           ...GatsbyImageSharpFluid
