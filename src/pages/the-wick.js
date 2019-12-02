@@ -11,7 +11,7 @@ import Img from 'gatsby-image';
 
 const theWick = (props) => (
     <Layout>
-        <SEO title="Amenities" />
+        <SEO title="The Wick" />
         <section>
 
 

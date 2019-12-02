@@ -60,7 +60,7 @@ const test3 = (props, {text123}) => (
               <p><img src={wick2logo} alt="Wick 2 Logo" className="img-fluid maxWidth200" /></p>
               <h3 className="text-uppercase">127 F. Street</h3>
               <p>Situated next to Mary Ross Waterfront Park and the East River, this location offers river, marsh, and park views from many suites. This recently renovated property provides a quiet work environment in a tranquil setting. The Wick 2.0 offers nearly 30 private offices ranging from 100 - 250 square feet.</p>
-              <Button variant="info">Learn More</Button>
+              <Button href="/the-wick-2" variant="info">Learn More</Button>
             </Col>
           </Row>
           <hr />
@@ -72,7 +72,7 @@ const test3 = (props, {text123}) => (
               <p><img src={wick3logo} alt="Wick 3 Logo" className="img-fluid maxWidth200" /></p>
               <h3 className="text-uppercase">501 Gloucester Street</h3>
               <p>Situated next to Mary Ross Waterfront Park and the East River, this location offers river, marsh, and park views from many suites. This recently renovated property provides a quiet work environment in a tranquil setting. The Wick 2.0 offers nearly 30 private offices ranging from 100 - 250 square feet.</p>
-              <Button variant="info">Learn More</Button>
+              <Button href="/the-wick-3" variant="info">Learn More</Button>
             </Col>
           </Row>
 

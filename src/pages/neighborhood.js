@@ -1,5 +1,5 @@
 import React from "react"
-import { Row, Col, Container } from "react-bootstrap"
+import { Container } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -7,11 +7,11 @@ import SEO from "../components/seo"
 import BackgroundImage from 'gatsby-background-image'
 
 import {graphql} from 'gatsby';
-import Img from 'gatsby-image';
+// import Img from 'gatsby-image';
 
 const neighborhood = (props) => (
     <Layout>
-        <SEO title="Amenities" />
+        <SEO title="Neighborhood" />
         <section>
         <BackgroundImage
           Tag="section"
