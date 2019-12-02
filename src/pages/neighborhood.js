@@ -1,5 +1,5 @@
 import React from "react"
-import { Container } from "react-bootstrap"
+import { Container, Carousel } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import BackgroundImage from 'gatsby-background-image'
 
 import {graphql} from 'gatsby';
-// import Img from 'gatsby-image';
+import Img from 'gatsby-image';
 
 const neighborhood = (props) => (
     <Layout>
@@ -32,9 +32,28 @@ const neighborhood = (props) => (
           </p>
           <hr />
         </Container>
-        <div className="subhead">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d853.6267005218305!2d-81.496362070799!3d31.15120889884333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e4d817bb4f97c1%3A0x7567711ebf771008!2s1612%20Newcastle%20St%2C%20Brunswick%2C%20GA%2031520!5e0!3m2!1sen!2sus!4v1574797196651!5m2!1sen!2sus" width="100%" height="100%" title="helo" frameborder="0"></iframe>
-        </div>
+        <Container>
+        <Carousel autoPlay interval={80000} touch={true}>
+          <Carousel.Item>
+            <Img fluid={props.data.neighborhood01.childImageSharp.fluid} alt="The Wick 3 Font Face of the Building" className="d-block img-fluid" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <Img fluid={props.data.neighborhood02.childImageSharp.fluid} alt="The Wick 3 Font Face of the Building" className="d-block w-100" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <Img fluid={props.data.neighborhood03.childImageSharp.fluid} alt="The Wick 3 Font Face of the Building" className="d-block img-fluid" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <Img fluid={props.data.neighborhood04.childImageSharp.fluid} alt="The Wick 3 Font Face of the Building" className="d-block img-fluid" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <Img fluid={props.data.neighborhood05.childImageSharp.fluid} alt="The Wick 3 Font Face of the Building" className="d-block img-fluid" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <Img fluid={props.data.neighborhood06.childImageSharp.fluid} alt="The Wick 3 Font Face of the Building" className="d-block img-fluid" />
+          </Carousel.Item>
+          </Carousel>
+        </Container>
         
         </section>
     </Layout>
@@ -45,6 +64,48 @@ export default neighborhood;
 export const pageQuery = graphql`
   query {
     indexImage: file(relativePath: { eq: "neighborhood.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    neighborhood01: file(relativePath: { eq: "neighborhood/neighborhood-01.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    neighborhood02: file(relativePath: { eq: "neighborhood/neighborhood-02.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    neighborhood03: file(relativePath: { eq: "neighborhood/neighborhood-03.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    neighborhood04: file(relativePath: { eq: "neighborhood/neighborhood-04.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    neighborhood05: file(relativePath: { eq: "neighborhood/neighborhood-05.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    neighborhood06: file(relativePath: { eq: "neighborhood/neighborhood-06.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid_withWebp
