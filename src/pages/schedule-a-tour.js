@@ -66,7 +66,7 @@ const scheduleATour = (props) => (
                                     <Form.Label>Last Name</Form.Label>
                                     <Form.Control 
                                         type="name"
-                                        name="First Name"
+                                        name="first-name"
 
                                      />
                             </Form.Group>
@@ -88,7 +88,7 @@ const scheduleATour = (props) => (
                             <Form.Label>How much space are you looking for?</Form.Label>
                             <Form.Control 
                                 as="textarea" 
-                                name="How Much Space Are You Looking for?"
+                                name="how-much-space"
                                 rows="3"
                                 placeholder="Examples: About 150-200 square feet; Enough for 3 people working full-time; A small office for 1 but lots of storage space..."
                              />
@@ -97,7 +97,7 @@ const scheduleATour = (props) => (
                             <Form.Label>What are some upcoming dates/times that you're available for a tour?</Form.Label>
                             <Form.Control 
                                 as="textarea" 
-                                name="How Much Space Are You Looking for?"
+                                name="how-much-space"
                                 rows="3"
                                 placeholder="Tours available 7 days a week!"
                              />
