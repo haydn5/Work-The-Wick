@@ -32,10 +32,9 @@ const scheduleATour = (props) => (
                     </Col>
                     <Col lg={6}>
                     <Form 
-                    data-netlify="true"
-                    method="post"
-                    name="Schedule a Tour"
+                    name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field"
                     >
+                        <input type="hidden" name="form-name" value="contact" />
                         <Form.Group controlId="exampleForm.ControlInput1">
                             <Form.Label>Email address</Form.Label>
                             <Form.Control type="email" placeholder="name@example.com" />
