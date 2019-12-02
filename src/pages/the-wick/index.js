@@ -1,5 +1,5 @@
 import React from "react"
-import { Row, Col, Container, Carousel } from "react-bootstrap"
+import { Container, Carousel } from "react-bootstrap"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
