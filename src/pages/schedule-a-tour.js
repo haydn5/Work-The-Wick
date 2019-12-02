@@ -33,7 +33,7 @@ const scheduleATour = (props) => (
                     </Col>
                     <Col lg={6}>
                     <Form 
-                    name="contact v6"
+                    name="contact v7"
                     method="post"
                     action="/success/"
                     data-netlify="true"
@@ -41,16 +41,13 @@ const scheduleATour = (props) => (
                     onSubmit="submit"
                     >
                     {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                    <input type="hidden" name="form-name" value="contact v6" />
+                    <input type="hidden" name="form-name" value="contact v7" />
                     <p hidden>
                     <label>
                         Don’t fill this out: <input name="bot-field" />
                     </label>
                     </p>
-                    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>  
+                     
 
 
                         <Row>
@@ -58,7 +55,7 @@ const scheduleATour = (props) => (
                                 <Form.Group>
                                     <Form.Label>First Name</Form.Label>
                                     <Form.Control 
-                                        type="text" name="fname"
+                                        type="text" name="first-name"
                                      />
                                 </Form.Group>
                             </Col>
@@ -66,7 +63,7 @@ const scheduleATour = (props) => (
                             <Form.Group>
                                     <Form.Label>Last Name</Form.Label>
                                     <Form.Control 
-                                       type="text" name="fname"
+                                       type="text" name="last-name"
 
                                      />
                             </Form.Group>
@@ -97,7 +94,7 @@ const scheduleATour = (props) => (
                             <Form.Label>What are some upcoming dates/times that you're available for a tour?</Form.Label>
                             <Form.Control 
                                 as="textarea" 
-                                name="upcoming-dates-times"
+                                name="upcoming-dates-and-times"
                                 rows="3"
                                 placeholder="Tours available 7 days a week!"
                              />
