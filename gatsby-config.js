@@ -38,14 +38,7 @@ module.exports = {
     },
     
     `gatsby-plugin-sass`,
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Quicksand:300,400,700', 'Lato:400,400i,700,700i']
-        }
-      }
-    },
+    
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

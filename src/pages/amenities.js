@@ -49,11 +49,11 @@ const amenities = (props) => (
 
           <Row>
             <Col lg={4}>
-                <p><Img fluid={props.data.noInvoices.childImageSharp.fluid} /></p>
+                <p><Img fluid={props.data.conferenceroom.childImageSharp.fluid} /></p>
             </Col>
             <Col lg={8}>
               <h2>Conference Rooms</h2>
-              <p><strong>Blah Blah</strong></p>
+              <p><strong>Executive Conference Rooms Availabel for Use</strong></p>
 
               <p>All members have access to our 14 person executive conference rooms on a first-come first-serve basis. The shared calendar is made available to all tenants for ease of use.</p>
             </Col>
@@ -61,11 +61,11 @@ const amenities = (props) => (
 
           <Row>
             <Col lg={4}>
-                <p><Img fluid={props.data.noInvoices.childImageSharp.fluid} /></p>
+                <p><Img fluid={props.data.events.childImageSharp.fluid} /></p>
             </Col>
             <Col lg={8}>
               <h2>Community Events</h2>
-              <p><strong>Blah Blah</strong></p>
+              <p><strong>Regular Tenant Networking Events Throughout The Year</strong></p>
 
               <p>The most important part of The Wick is the community of driven, passionate people in a variety of industries. We coordinate tenant events regularly to provide opportunities for tenants to meet, mingle, and work together.</p>
             </Col>
@@ -73,13 +73,25 @@ const amenities = (props) => (
 
           <Row>
             <Col lg={4}>
-                <p><Img fluid={props.data.noInvoices.childImageSharp.fluid} /></p>
+                <p><Img fluid={props.data.officeEquipment.childImageSharp.fluid} /></p>
             </Col>
             <Col lg={8}>
-              <h2>Conference Rooms</h2>
-              <p><strong>Blah Blah</strong></p>
+              <h2>Print/Copy/Scan</h2>
+              <p><strong>Multipurpose Copy Center</strong></p>
 
-              <p>All members have access to our 14 person executive conference rooms on a first-come first-serve basis. The shared calendar is made available to all tenants for ease of use.</p>
+              <p>All properties have their own high speed professional grade multi-purpose printer/copiers with scan to email capability.</p>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col lg={4}>
+                <p><Img fluid={props.data.camera.childImageSharp.fluid} /></p>
+            </Col>
+            <Col lg={8}>
+              <h2>24/7 Access & Security</h2>
+              <p><strong>Secure Buildings with 24/7 Access</strong></p>
+
+              <p>All properties have 24/7 security with cameras, automatic door locks, and more. Tenants have 24/7 access with unique security credentials for after hour access.</p>
             </Col>
           </Row>
           
@@ -93,30 +105,23 @@ export default amenities;
 
 export const pageQuery = graphql`
   query {
-    indexImage: file(relativePath: { eq: "wick-1-outside-cars.jpg" }) {
+    conferenceroom: file(relativePath: { eq: "conference-room.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 2000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    wick1Front: file(relativePath: { eq: "wick-1-outside.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 800) {
+        fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
-    wick2Front: file(relativePath: { eq: "wick-2-outside.jpg" }) {
+    events: file(relativePath: { eq: "events.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 800) {
+        fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
-    wick3Front: file(relativePath: { eq: "wick-3-outside.jpg" }) {
+    officeEquipment: file(relativePath: { eq: "machine-clipart-office-equipment-9.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 800) {
+        fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
@@ -132,6 +137,13 @@ export const pageQuery = graphql`
       childImageSharp {
         fluid(maxWidth: 2000) {
           ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    camera: file(relativePath: { eq: "bullet-camera-atlanta-business.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 2000) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
