@@ -4,7 +4,7 @@ module.exports = {
     title: `Work the Wick`,
     description: `The Wick is a shared work space that offers tenants the privacy of individual office spaces with the amenities of larger office buildings. `,
     author: `The Wick`,
-    siteUrl: `https://www.workthewick.com`,
+    siteUrl: `https://workthewick.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,6 +15,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-sitemap`,
     `gatsby-transformer-sharp`,
     // `gatsby-plugin-sitemap`,
     `gatsby-plugin-sharp`,
