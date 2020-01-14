@@ -33,7 +33,7 @@ const scheduleATour = (props) => (
                     </Col>
                     <Col lg={6}>
                     <Form 
-                    name="contact v7"
+                    name="contact v8"
                     method="post"
                     action="/success/"
                     data-netlify="true"
@@ -41,7 +41,7 @@ const scheduleATour = (props) => (
                     onSubmit="submit"
                     >
                     {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                    <input type="hidden" name="form-name" value="contact v7" />
+                    <input type="hidden" name="form-name" value="contact v8" />
                     <p hidden>
                     <label>
                         Don’t fill this out: <input name="bot-field" />
@@ -74,6 +74,15 @@ const scheduleATour = (props) => (
                             
                         <Form.Group>
                             <Form.Label>Email address</Form.Label>
+                            <Form.Control 
+                                required
+                                type="text" 
+                                name="phone" 
+                            />
+                        </Form.Group>
+
+                        <Form.Group>
+                            <Form.Label>Phone</Form.Label>
                             <Form.Control 
                                 required
                                 type="email" 
