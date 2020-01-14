@@ -76,8 +76,8 @@ const scheduleATour = (props) => (
                             <Form.Label>Email address</Form.Label>
                             <Form.Control 
                                 required
-                                type="text" 
-                                name="phone" 
+                                type="email" 
+                                name="email" 
                             />
                         </Form.Group>
 
@@ -85,8 +85,8 @@ const scheduleATour = (props) => (
                             <Form.Label>Phone</Form.Label>
                             <Form.Control 
                                 required
-                                type="email" 
-                                name="email" 
+                                type="text" 
+                                name="phone" 
                             />
                         </Form.Group>
                         
