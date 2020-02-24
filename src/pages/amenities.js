@@ -52,10 +52,10 @@ const amenities = (props) => (
                 <p><Img fluid={props.data.conferenceroom.childImageSharp.fluid} /></p>
             </Col>
             <Col lg={8}>
-              <h2>Conference Rooms</h2>
-              <p><strong>Executive Conference Rooms Availabel for Use</strong></p>
+              <h2>Conference and Meeting Rooms</h2>
+              <p><strong>Executive conference and meeting rooms available for use</strong></p>
 
-              <p>All members have access to our 14 person executive conference rooms on a first-come first-serve basis. The shared calendar is made available to all tenants for ease of use.</p>
+              <p>All tenants have access to our 14 person executive conference room and 24 person convertible meeting space on a first-come first-serve basis. Reservations are available to tenants at no additional charge.</p>
             </Col>
           </Row>
 
