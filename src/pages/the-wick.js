@@ -30,7 +30,7 @@ const theWick = (props) => (
 
         <Container>
           <p className="summary">
-          The Wick is located in the historic Royal Hotel located on Newcastle Street in downtown Brunswick, Georgia. Built in 1908, this property has gone through multiple modernizations over the course of its lifetime, but still maintains its original historic charm. With high ceilings adorned with pressed tin, gorgeous hardwood floors, original skylights, and large windows throughout, our office suites are truly one of a kind. Along with historic charm this working community also houses a 14 person conference room, kitchen, and copy center. Offering over 30 private office suites ranging from 100 - 300 square feet this community of entrepreneurs is a part of Brunswick’s vibrant small business network.
+          The Wick is located in the historic Royal Hotel located on Newcastle Street in downtown Brunswick, Georgia. Built in 1908, this property has gone through multiple modernizations over the course of its lifetime, but still maintains its original historic charm. With high ceilings adorned with pressed tin, gorgeous hardwood floors, original skylights, and large windows throughout, our office suites are truly one of a kind. Along with historic charm this working community also houses a 14 person executive boardroom, kitchen, and copy center. Offering over 30 private office suites ranging from 100 - 300 square feet this community of entrepreneurs is an essential part of Brunswick’s vibrant small business network.
           </p>
         </Container>
 

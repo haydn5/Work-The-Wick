@@ -71,7 +71,7 @@ const test3 = (props, {text123}) => (
             <Col lg={8}>
               <p><img src={wick3logo} alt="Wick 3 Logo" className="img-fluid maxWidth200" /></p>
               <h3 className="text-uppercase">501 Gloucester Street</h3>
-              <p>Situated next to Mary Ross Waterfront Park and the East River, this location offers river, marsh, and park views from many suites. This recently renovated property provides a quiet work environment in a tranquil setting. The Wick 2.0 offers nearly 30 private offices ranging from 100 - 250 square feet.</p>
+              <p>Located in the heart of Historic Downtown Brunswick, The Wick 3.0 is filled with over 40 of our largest suites ranging from 150-800 square feet. This recent addition to The Wick office community sports a grand lobby, 24 person convertible meeting space / classroom, and spacious corridors filled with large format art from around the Golden Isles throughout.</p>
               <Button href="/the-wick-3" variant="info">Learn More</Button>
             </Col>
           </Row>
@@ -95,7 +95,7 @@ const test3 = (props, {text123}) => (
 
         <Container>
           <h2 className="summary">Historic Downtown Brunswick</h2>
-          <p className="summary">The Wick and The Wick 2.0 are conveniently located in the heart of Historic Downtown Brunswick. The downtown area has great retail stores, restaurants, professional services, and entertainment. Come experience some of Brunswick's notable sites and events including: First Fridays, Signature Squares, the Ritz Theatre, the Brunswick Landing Marina, and more.</p>
+          <p className="summary">The downtown area is filled with great retail shops, restaurants, art galleries, professional services, and entertainment. Experience some of Brunswick's notable sites and events including: Signature Square Parks, Historic Old City Hall, Lover’s Oak, Mary Ross Waterfront Park, Historic Ritz Theatre, Brunswick Landing Marina, First Fridays, and much more!</p>
         </Container>
         <Container>
         <Carousel autoPlay interval={80000} touch={true}>
@@ -118,7 +118,7 @@ const test3 = (props, {text123}) => (
 
 export default test3;
 
-export const pageQuery = graphql`
+export const query = graphql`
   query {
     indexImage: file(relativePath: { eq: "wick-1-outside-cars.jpg" }) {
       childImageSharp {

@@ -30,7 +30,7 @@ const theWick = (props) => (
 
         <Container>
           <p className="summary">
-          Help us welcome the newest addition to The Wick family of properties is close to it everything. Located in the heart of historic downtown Brunswick, Georgia on Gloucester Street, this project has been completely renovated in 2019. The Wick 3.0 boasts a grand and gracious lobby with no shortage of large office suites. With a spacious kitchen and conference room that seats 20 The Wick 3.0 offers over 35 offices ranging from 150 - 300 square feet. Many plans have been put into the works to create not only a working community between these three buildings but an opportunity to network and grow your small business. We look forward to sharing all we have in store with you.
+          The newest addition to The Wick family of properties is close to it all. Located in the heart of Historic Downtown Brunswick, this property has been completely restored to its original luster. The Wick 3.0 boasts a grand and gracious lobby with no shortage of large office suites. With a spacious kitchen and convertible meeting space that seats up to 24, The Wick 3.0 offers over 40 offices ranging from 150 - 800 square feet. Curious where the two former bank vaults are hidden away in this building? Schedule a tour and come explore all The Wick 3.0 has to offer.
           </p>
         </Container>
 

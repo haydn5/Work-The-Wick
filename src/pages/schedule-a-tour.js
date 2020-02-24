@@ -28,8 +28,9 @@ const scheduleATour = (props) => (
             <Container>
                 <Row>
                     <Col lg={6}>
-                    <p>For all leasing inquiries, please call Katie 912-571-8170, or email <a href="mailto:Katie@KaufmanDevelopmentGroup.com">Katie@KaufmanDevelopmentGroup.com</a>
-</p>
+                    <p>
+                        For all leasing inquiries, please call 912-571-8170, email <a href="mailto:Info@WorkTheWick.com">Info@WorkTheWick.com</a>, or enter your info and we’ll reach out to you!
+                    </p>
                     </Col>
                     <Col lg={6}>
                     <Form 
@@ -100,12 +101,12 @@ const scheduleATour = (props) => (
                              />
                         </Form.Group>
                         <Form.Group>
-                            <Form.Label>What are some upcoming dates/times that you're available for a tour?</Form.Label>
+                            <Form.Label>Please tell us a little bit about your business.</Form.Label>
                             <Form.Control 
                                 as="textarea" 
-                                name="upcoming-dates-and-times"
+                                name="more-about-business"
                                 rows="3"
-                                placeholder="Tours available 7 days a week!"
+                                placeholder="What do you do? (but really, what don’t you do…)"
                              />
                         </Form.Group>
                         <Button type="submit">Submit</Button>

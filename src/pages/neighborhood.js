@@ -28,7 +28,7 @@ const neighborhood = (props) => (
 
         <Container>
           <h2 className="summary">Historic Downtown Brunswick</h2>
-          <p className="summary">The Wick and The Wick 2.0 are conveniently located in the heart of Historic Downtown Brunswick. The downtown area has great retail stores, restaurants, professional services, and entertainment. Come experience some of Brunswick's notable sites and events including: First Fridays, Signature Squares, the Ritz Theatre, the Brunswick Landing Marina, and more.
+          <p className="summary">All of The Wick locations are conveniently located in the heart of Historic Downtown Brunswick. The downtown area is filled with great retail shops, restaurants, art galleries, professional services, and entertainment. Experience some of Brunswick's notable sites and events including: Signature Square Parks, Historic Old City Hall, Lover’s Oak, Mary Ross Waterfront Park, Historic Ritz Theatre, Brunswick Landing Marina, First Fridays, and much more!
           </p>
           <hr />
         </Container>

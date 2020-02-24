@@ -30,7 +30,7 @@ const theWick = (props) => (
 
         <Container>
           <p className="summary">
-          Sitting adjacent to the beautiful Mary Ross Waterfront Park and situated on the East River the Wick 3.0 offers spectacular views from many suites. With its classic tabby exterior and spacious offices this recently renovated property provides a quiet work environment in a tranquil setting right in the middle of historic Downtown Brunswick, Georgia. It’s amenities include a central meeting space, a small kitchenette, and mail center. These spaces are perfect for those who are seeking networking opportunities and the ability to eat lunch by the marina daily! The Wick 2.0 offers nearly 30 private offices ranging from 100 - 250 square feet.
+          Sitting adjacent to the beautiful Mary Ross Waterfront Park and situated on the East River The Wick 2.0 offers spectacular views from many suites. With its classic tabby exterior and spacious offices this recently renovated property provides a quiet work environment in a tranquil setting right in the middle of Historic Downtown Brunswick, Georgia. Its amenities include a central meeting space, a small kitchenette, and mail center. These spaces are perfect for those who are seeking networking opportunities and the ability to eat lunch by the marina daily! The Wick 2.0 offers nearly 30 private offices ranging from 100 - 250 square feet.
           </p>
         </Container>
 
