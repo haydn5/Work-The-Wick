@@ -66,35 +66,35 @@ export const pageQuery = graphql`
   query {
     indexImage: file(relativePath: { eq: "wick-3-header.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     wick0301: file(relativePath: { eq: "wick-3/wick-3-01.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 800) {
+        fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     wick0302: file(relativePath: { eq: "wick-3/wick-3-02.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 800) {
+        fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     wick0303: file(relativePath: { eq: "wick-3/wick-3-03.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 800) {
+        fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     wick0304: file(relativePath: { eq: "wick-3/wick-3-04.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 600) {
+        fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
