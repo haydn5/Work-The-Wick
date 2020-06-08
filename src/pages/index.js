@@ -14,7 +14,7 @@ import wick2logo from "../images/logo-2-wick.svg"
 import wick3logo from "../images/logo-3-wick.svg"
 
 
-const test3 = (props, {text123}) => (
+const test3 = (props) => (
   <Layout>
         <SEO title="Offices in Brunswick, Georgia"/>
         <section className="page-section">
@@ -84,7 +84,7 @@ const test3 = (props, {text123}) => (
         </Container>
 
         <div className="subhead">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d853.6267005218305!2d-81.496362070799!3d31.15120889884333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e4d817bb4f97c1%3A0x7567711ebf771008!2s1612%20Newcastle%20St%2C%20Brunswick%2C%20GA%2031520!5e0!3m2!1sen!2sus!4v1574797196651!5m2!1sen!2sus" width="100%" height="100%" title="helo" frameborder="0"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d853.6267005218305!2d-81.496362070799!3d31.15120889884333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e4d817bb4f97c1%3A0x7567711ebf771008!2s1612%20Newcastle%20St%2C%20Brunswick%2C%20GA%2031520!5e0!3m2!1sen!2sus!4v1574797196651!5m2!1sen!2sus" width="100%" scrolling="yes" height="100%" title="helo" frameborder="0"></iframe>
         </div>
         <Container>
         
